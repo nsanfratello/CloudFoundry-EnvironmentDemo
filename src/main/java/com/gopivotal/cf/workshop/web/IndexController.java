@@ -68,7 +68,7 @@ public class IndexController {
 	}
 	
 
-	@RequestMapping(value = "/environment", method = RequestMethod.GET)
+	@RequestMapping(value = "/environments", method = RequestMethod.GET)
 	public String environment(Model model) throws Exception {
 			
 		//	Dump the environment variables to the page.  
